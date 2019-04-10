@@ -64,7 +64,7 @@ class App extends Component {
                     <input 
                         type="text" 
                         className="searchInput" 
-                        placeholder="What are you looking for?" 
+                        placeholder="Search (click icon to search)" 
                         value={this.state.query} 
                         onChange={(input) => {
                           this.setState({ query: input.target.value });
