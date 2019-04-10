@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/cregital/static/js/runtime~main.eda2a3d1.js"
   },
   {
-    "revision": "eff45ec9a6853498bef3",
-    "url": "/cregital/static/js/main.2633a5c5.chunk.js"
+    "revision": "64043c968fa4086a6e0a",
+    "url": "/cregital/static/js/main.3f23c91b.chunk.js"
   },
   {
     "revision": "1a04be1bc217ccb4a34f",
     "url": "/cregital/static/js/2.c6a75f39.chunk.js"
   },
   {
-    "revision": "eff45ec9a6853498bef3",
+    "revision": "64043c968fa4086a6e0a",
     "url": "/cregital/static/css/main.9f7eb3a7.chunk.css"
   },
   {
-    "revision": "cefe361e27d78b2e96a27a059a42f8d8",
+    "revision": "2806dafe99cf31a7436d6286cf78ed59",
     "url": "/cregital/index.html"
   }
 ];
