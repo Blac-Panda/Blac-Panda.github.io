@@ -1,0 +1,37 @@
+.app-header {
+  background-color: #3b3e42;
+  font-size: 40px;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.searchInput {
+  height: 50px;
+  width: 75vw;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-color: #61dafb;
+  border-radius: 2px;
+  border-width: 2px;
+}
+
+.searchButton {
+  height: 50px;
+}
+
+#search_container {
+  position: relative;
+  -webkit-transition: top 0.8s;
+  transition: top 0.8s;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.hoverfnc :hover{
+  cursor: pointer;
+}
