@@ -23,7 +23,26 @@ class App extends Component {
         this.fetchResult = this.fetchResult.bind(this);
       }
 
-      fetchResult() {
+      fetchResult(e) {
+        e.preventDefault();
+        fetch(`https://api.pexels.com/v1/search?query=${this.state.query}+query&per_page=20&page=${this.state.currentPage}`,
+          {
+            headers: {
+              'Authorization': `Bearer 563492ad6f917000010000014da165cecd0445eb8634ca17b09378e5`,
+            }
+          })
+          .then(response=> response.json())
+          .then(responseJson => {
+              this.setState({ images: responseJson.photos }, () => {
+              this.setState({ position: '0px' })
+            })
+            this.setState({ query_result: responseJson })
+          })
+          .catch(error => {
+            console.log(error);
+          })
+      }
+      fetchResult1() {
         fetch(`https://api.pexels.com/v1/search?query=${this.state.query}+query&per_page=20&page=${this.state.currentPage}`,
           {
             headers: {
@@ -58,7 +77,7 @@ class App extends Component {
              
               <Row>
                 <Col className="my-5">
-                
+                <form onSubmit={e=>this.fetchResult(e)}>
                   <div id="search_container" ref={this.searchContainer} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', top: this.state.position}}>
                     
                     <input 
@@ -77,6 +96,7 @@ class App extends Component {
                       </button>
                       
                   </div>
+                  </form>
                 </Col>
               </Row>
               <div id="#top"></div>
@@ -93,7 +113,7 @@ class App extends Component {
                         style={{ width: '100px'}}
                         onClick={() => {
                           this.setState({ currentPage: this.state.currentPage - 1 }, () => {
-                            this.fetchResult();
+                            this.fetchResult1();
                           })
                         }}>Previous</button>
                       </a>
@@ -107,7 +127,7 @@ class App extends Component {
                         style={{ width: '100px'}}
                         onClick={() => {
                           this.setState({ currentPage: this.state.currentPage + 1}, () => {
-                              this.fetchResult();
+                              this.fetchResult1();
                           })
                         }}> Next </button>
                       </a>
