@@ -1,14 +1,14 @@
 {
-  "main.css": "/creg/static/css/main.9f7eb3a7.chunk.css",
-  "main.js": "/creg/static/js/main.2633a5c5.chunk.js",
-  "main.js.map": "/creg/static/js/main.2633a5c5.chunk.js.map",
-  "runtime~main.js": "/creg/static/js/runtime~main.30bd26fe.js",
-  "runtime~main.js.map": "/creg/static/js/runtime~main.30bd26fe.js.map",
-  "static/js/2.c6a75f39.chunk.js": "/creg/static/js/2.c6a75f39.chunk.js",
-  "static/js/2.c6a75f39.chunk.js.map": "/creg/static/js/2.c6a75f39.chunk.js.map",
-  "index.html": "/creg/index.html",
-  "precache-manifest.5db267391581454df300263ba63db14c.js": "/creg/precache-manifest.5db267391581454df300263ba63db14c.js",
-  "service-worker.js": "/creg/service-worker.js",
-  "static/css/main.9f7eb3a7.chunk.css.map": "/creg/static/css/main.9f7eb3a7.chunk.css.map",
-  "static/media/search.svg": "/creg/static/media/search.c6a0effb.svg"
+  "main.css": "/cregital/static/css/main.9f7eb3a7.chunk.css",
+  "main.js": "/cregital/static/js/main.2633a5c5.chunk.js",
+  "main.js.map": "/cregital/static/js/main.2633a5c5.chunk.js.map",
+  "runtime~main.js": "/cregital/static/js/runtime~main.eda2a3d1.js",
+  "runtime~main.js.map": "/cregital/static/js/runtime~main.eda2a3d1.js.map",
+  "static/js/2.c6a75f39.chunk.js": "/cregital/static/js/2.c6a75f39.chunk.js",
+  "static/js/2.c6a75f39.chunk.js.map": "/cregital/static/js/2.c6a75f39.chunk.js.map",
+  "index.html": "/cregital/index.html",
+  "precache-manifest.b409f826ce99ed33451dad9a69ede090.js": "/cregital/precache-manifest.b409f826ce99ed33451dad9a69ede090.js",
+  "service-worker.js": "/cregital/service-worker.js",
+  "static/css/main.9f7eb3a7.chunk.css.map": "/cregital/static/css/main.9f7eb3a7.chunk.css.map",
+  "static/media/search.svg": "/cregital/static/media/search.c6a0effb.svg"
 }
