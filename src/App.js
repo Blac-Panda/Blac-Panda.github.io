@@ -77,13 +77,13 @@ class App extends Component {
              
               <Row>
                 <Col className="my-5">
-                <form onSubmit={e=>this.fetchResult(e)}>
+                <form onSubmit={e => this.fetchResult(e)}>
                   <div id="search_container" ref={this.searchContainer} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', top: this.state.position}}>
                     
                     <input 
                         type="text" 
                         className="searchInput" 
-                        placeholder="Search (click icon to search)" 
+                        placeholder="What are you looking for?" 
                         value={this.state.query} 
                         onChange={(input) => {
                           this.setState({ query: input.target.value });
