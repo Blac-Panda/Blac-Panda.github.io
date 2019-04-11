@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cregital/precache-manifest.7fd159ffd32edf4a5a318e126854cde4.js"
+  "/cregital/precache-manifest.57b7d3e27dbccde2a119a2fe24cab1fe.js"
 );
 
 workbox.clientsClaim();
