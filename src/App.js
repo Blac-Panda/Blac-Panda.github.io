@@ -3,6 +3,7 @@ import './App.css';
 import search from './search.svg';
 import 'whatwg-fetch';
 
+import AddToHomescreen from 'react-add-to-homescreen'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
