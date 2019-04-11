@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/cregital/static/css/main.9f7eb3a7.chunk.css"
   },
   {
-    "revision": "3625ca274753602fcbe03cea62c0ff9d",
+    "revision": "9c1085d84ea8af96a741236c23056c3b",
     "url": "/cregital/index.html"
   }
 ];
