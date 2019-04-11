@@ -23,6 +23,12 @@ class App extends Component {
         this.fetchResult = this.fetchResult.bind(this);
       }
 
+      handleAddToHomescreenClick = () => {
+        alert(`
+            1. Open Share menu
+            2. Tap on "Add to Home Screen" button
+        `)
+    }
       fetchResult(e) {
         e.preventDefault();
         fetch(`https://api.pexels.com/v1/search?query=${this.state.query}+query&per_page=20&page=${this.state.currentPage}`,
@@ -68,6 +74,7 @@ class App extends Component {
         return (
           
           <Container>
+            <AddToHomescreen onAddToHomescreenClick={this.handleAddToHomescreenClick}/>
              <Row>
                 <Col className="app-header">
                   Welcome to Picolo
