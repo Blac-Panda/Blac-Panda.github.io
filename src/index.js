@@ -5,14 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import AddToHomescreen from 'react-add-to-homescreen'
 
-<AddToHomescreen onAddToHomescreenClick={
-    handleAddToHomescreenClick = () => {
+<AddToHomescreen onAddToHomescreenClick={() => {
     alert(`
         1. Open Share menu
         2. Tap on "Add to Home Screen" button
     `)
 }}/>
-
 
 
 ReactDOM.render(<App/>,  document.getElementById('root'));
