@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "017f367d2a21126fbd62",
+    "revision": "8994107ee0579b4f8d1d",
     "url": "/cregital/static/css/main.9f7eb3a7.chunk.css"
   },
   {
-    "revision": "017f367d2a21126fbd62",
-    "url": "/cregital/static/js/main.ed444f64.chunk.js"
+    "revision": "8994107ee0579b4f8d1d",
+    "url": "/cregital/static/js/main.30e13dc0.chunk.js"
   },
   {
     "revision": "a7a599f2633486bdcb4c",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/cregital/static/media/search.c6a0effb.svg"
   },
   {
-    "revision": "48198bb14d743199be28bb455f4a1d46",
+    "revision": "26abef9daa376b345da217714f1bc335",
     "url": "/cregital/index.html"
   }
 ];
